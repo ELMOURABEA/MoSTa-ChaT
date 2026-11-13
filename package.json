@@ -51,6 +51,7 @@
     "js-yaml": "5.5.0",
     "oxfmt": "0.74.0",
     "oxlint": "1.89.0",
+    "prisma": "8.0.0-rc.33",
     "syncpack": "15.3.3",
     "turbo": "2.11.10",
     "typescript": "catalog:"
@@ -58,5 +59,20 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@12.17.0"
+  "packageManager": "pnpm@12.17.0",
+  "dependencies": {
+    "@prisma/composer": "0.38.0",
+    "@prisma/composer-prisma-cloud": "0.38.0",
+    "@prisma/orm-postgres": "8.0.0-rc.23",
+    "effect": "4.0.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@effect/platform-bun": "4.0.5",
+      "@effect/platform-node": "4.0.5",
+      "@effect/platform-node-shared": "4.0.5",
+      "@effect/vitest": "4.0.5",
+      "effect": "4.0.5"
+    }
+  }
 }
