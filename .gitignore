@@ -75,3 +75,5 @@ Thumbs.db
 .vercel
 .env*.local
 .env*
+.prisma-composer/
+.alchemy/
